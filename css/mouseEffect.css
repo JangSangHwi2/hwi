@@ -1,0 +1,55 @@
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.clickEffect {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-style: solid;
+  border-color: #111;
+  border-radius: 50%;
+  -webkit-animation: clickEffect 0.4s ease-out;
+          animation: clickEffect 0.4s ease-out;
+  z-index: 99999;
+}
+
+@-webkit-keyframes clickEffect {
+  0% {
+    opacity: 1;
+    width: 0.5em;
+    height: 0.5em;
+    margin: -0.25em;
+    border-width: 0.5em;
+  }
+  100% {
+    opacity: 0.2;
+    width: 15em;
+    height: 15em;
+    margin: -7.5em;
+    border-width: 0.03em;
+  }
+}
+
+@keyframes clickEffect {
+  0% {
+    opacity: 1;
+    width: 0.5em;
+    height: 0.5em;
+    margin: -0.25em;
+    border-width: 0.5em;
+  }
+  100% {
+    opacity: 0.2;
+    width: 15em;
+    height: 15em;
+    margin: -7.5em;
+    border-width: 0.03em;
+  }
+}

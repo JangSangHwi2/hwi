@@ -1,0 +1,45 @@
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container .content {
+  padding: 40px;
+}
+
+.container .content .tab_wrap {
+  overflow: hidden;
+}
+
+.container .content .tab_wrap li {
+  float: left;
+}
+
+.container .content .tab_wrap li.active {
+  background: #bababa;
+}
+
+.container .content .tab_wrap li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .content .tab_cont {
+  display: none;
+  background: #bababa;
+  padding: 6px 16px;
+  min-height: 300px;
+}
+
+.container .content .tab_cont.active {
+  display: block;
+}

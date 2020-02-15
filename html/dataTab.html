@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/dataTab.css">
+    <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../js/dataTab.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>css/jquery 데이터 탭</h1>
+        <div class="content">
+            <ul class="tab_wrap">
+                <li class="active" data-tab="tab1">
+                    <a href="javascript:void(0);">Tab1</a>
+                </li>
+                <li data-tab="tab2">
+                    <a href="javascript:void(0);">Tab2</a>
+                </li>
+                <li data-tab="tab3">
+                    <a href="javascript:void(0);">Tab3</a>
+                </li>
+                <li data-tab="tab4">
+                    <a href="javascript:void(0);">Tab4</a>
+                </li>
+            </ul>
+            <div id="tab1" class="tab_cont active">1번탭에 대한내용입니다.</div>
+            <div id="tab2" class="tab_cont">2번탭에 대한내용입니다.</div>
+            <div id="tab3" class="tab_cont">3번탭에 대한내용입니다.</div>
+            <div id="tab4" class="tab_cont">4번탭에 대한내용입니다.</div>
+        </div>
+    </div>
+</body>
+</html>
